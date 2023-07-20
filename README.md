@@ -9,4 +9,4 @@ As it's finished game I went through all the stages of game development from ide
 I did all the design, coding, all UI images and most of the 3d models. Mouse's and Enemy's models, their animations, sky and all sounds are NOT created by me.
 
 Video of gameplay is available on YouTube:
-https://www.youtube.com/watch?v=8NU3xfRj748
+https://www.youtube.com/watch?v=pMEeboYBa84
