@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\UE5\\nauka\\AmazingMouseRunner\\Source\\AmazingMouseRunner\\AmazingMouseRunner.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE5\\nauka\\AmazingMouseRunner\\.vscode\\compileCommands_AmazingMouseRunner\\AmazingMouseRunner.255.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE5\\nauka\\AmazingMouseRunner\\Source\\AmazingMouseRunner\\AmazingMouseRunner.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE5\\nauka\\AmazingMouseRunner\\.vscode\\compileCommands_AmazingMouseRunner\\AmazingMouseRunner.255.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE5\\nauka\\AmazingMouseRunner\\Source\\AmazingMouseRunner\\AmazingMouseRunner.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE5\\nauka\\AmazingMouseRunner\\.vscode\\compileCommands_AmazingMouseRunner\\AmazingMouseRunner.255.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE5\\nauka\\AmazingMouseRunner\\Source\\AmazingMouseRunner\\AmazingMouseRunnerGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE5\\nauka\\AmazingMouseRunner\\.vscode\\compileCommands_AmazingMouseRunner\\AmazingMouseRunner.255.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UE5\\nauka\\AmazingMouseRunner\\Source\\AmazingMouseRunner\\AmazingMouseRunnerGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\UE5\\nauka\\AmazingMouseRunner\\.vscode\\compileCommands_AmazingMouseRunner\\AmazingMouseRunner.255.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.1\\Engine\\Source"
+	}
+]

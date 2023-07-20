@@ -1,0 +1,1177 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "AmazingMouseRunner Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Test",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Test",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Test",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Shipping",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Shipping",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Win64",
+				"Shipping",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunner Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunner Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunner Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Test",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunner Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Test",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Test",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Shipping",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Build",
+				"AmazingMouseRunner Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-Project=D:/UE5/nauka/AmazingMouseRunner/AmazingMouseRunner.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AmazingMouseRunner Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Shipping",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunner Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunner Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunner",
+				"Android",
+				"Shipping",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AmazingMouseRunnerEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "AmazingMouseRunnerEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AmazingMouseRunnerEditor",
+				"Win64",
+				"Development",
+				"D:\\UE5\\nauka\\AmazingMouseRunner\\AmazingMouseRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.1"
+			}
+		}
+	]
+}
